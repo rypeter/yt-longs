@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Redirect",
+  "version": "1.1",
+  "description": "Automatically redirects YouTube Shorts URLs to regular video format.",
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://www.youtube.com/shorts/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
